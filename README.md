@@ -1,2 +1,0 @@
-# LanWe
- New lanet website
