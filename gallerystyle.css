@@ -38,8 +38,8 @@ html {
     scroll-behavior: smooth;
 }
  body {
-     max-width: 100%;
-     height: 100%;
+     max-width: 80vh;
+     height: 90vh;
   font-family: var(--bs-font-sans-serif);
   font-size: 1rem;
   font-weight: 400;
@@ -1195,7 +1195,7 @@ img.mfp-img {
 img,
 svg {
   vertical-align: middle;
-    max-width: 100%;
+    max-width: 90%;
 }
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-top: 0;
@@ -1836,7 +1836,7 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
       height: auto;
     vertical-align: middle;
      object-position: 80% 100%;
-    object-fit: cover;
+    object-fit: contain;
     
 }
 
@@ -2175,6 +2175,7 @@ font-size: 11px;
 .nav-area {
 text-align: center;
 }
+   
     
 }
 @media only screen and (max-width: 767px) {
@@ -2267,9 +2268,6 @@ text-align: center;
     transition: background-color 0.6s ease;
 }
 
-/*.active{
-    background-color: maroon;
-}*/
 
 .fade{
     animation: fade 2s;
@@ -2281,6 +2279,6 @@ text-align: center;
 }
 @media(max-width:768px){
     .container{
-        width: 100%;
+        width: 80%;
     }
 }
