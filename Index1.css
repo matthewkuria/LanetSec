@@ -495,7 +495,11 @@ html {
 .dropstart {
   position: relative;
 }
-
+.dropdown:hover>.dropdown-menu {
+    float: right;
+  display: block;
+ position: relative;
+}
 .dropdown-toggle {
   white-space: nowrap;
 }
@@ -1986,6 +1990,9 @@ video {
     }
     .growt{
         display: none;
+    }
+    .depart img{
+        display: flex;
     }
     video {
     margin-bottom: 200px;

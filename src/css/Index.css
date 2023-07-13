@@ -196,7 +196,11 @@ html {
 .navbar-nav .dropdown-menu {
   position: static;
 }
-
+.dropdown:hover>.dropdown-menu {
+/*    float: right;*/
+  display: block;
+ position: relative;
+}
 .navbar-text {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
