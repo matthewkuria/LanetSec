@@ -1447,7 +1447,32 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
     object-fit: cover;
     
 }
-
+.container h1{
+    animation: colorchange 5s infinite alternate;
+}
+@keyframes colorchange{
+    0%{
+        color: white;
+    }
+    10%{
+        color: gold;
+    }
+     20%{
+        color: blue;
+    }
+        40%{
+        color: green;
+    }
+        60%{
+        color: yellow;
+    }
+        80%{
+        color: orange;
+    }
+        100%{
+        color: red;
+    }
+}
 }
 .slideshow-container{
     max-width: 1000px;
