@@ -406,7 +406,7 @@ html {
   color: rgba(0, 0, 0, 0.9);
 }
 .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
-  color: maroon;
+  color: #8B0000;
 }
 .navbar-light .navbar-nav .nav-link {
   color: rgba(0, 0, 0, 0.55);
@@ -441,7 +441,7 @@ html {
   color: #fff;
 }
 .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
-  color: maroon;
+  color: #8B0000;
 }
 .navbar-dark .navbar-nav .nav-link {
   color: rgba(255, 255, 255, 0.55);
@@ -1267,7 +1267,7 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
     color: white;
     margin-top: 120px;
     margin-bottom: 20px;
-    background-color: maroon;
+    background-color: #8B0000;
     
     
 }
@@ -1304,7 +1304,7 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
 }
 
 .fa:hover {
-    background-color: maroon;
+    background-color: #8B0000;
     color: white;
     opacity: 0.7;
 }
@@ -1417,7 +1417,7 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
 
 
 .foter{
-    background-color: maroon;
+    background-color: #8B0000;
     font-size: 24px;
     height:270px;
     padding: 10px;
@@ -1491,7 +1491,7 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
     
 }
 .active1,.dot:hover{
-    background-color: maroon;
+    background-color: #8B0000;
 }
 .fade{
     animation-name: fade;
@@ -1521,7 +1521,7 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
   transition: 0.4s;
 }
 .activ, .accordion:hover {
-  background-color: maroon;
+  background-color: #8B0000;
 }
 
 .panel {
@@ -1556,7 +1556,7 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
   border-color: yellow;
   outline: none;
   padding: 9px 10px;
-  background-color: maroon;
+  background-color: #8B0000;
   cursor: pointer;
   font-size: 15px;
 }
@@ -1577,7 +1577,7 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
     vertical-align: middle;
 }
  .news{
-        background-color: maroon;
+        background-color: #8B0000;
         color: white;
         position:absolute; 
         top: 20%;
@@ -1592,7 +1592,7 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
     }
 .footer {
     
-  background-color: maroon;
+  background-color: #8B0000;
   color: #ffffff;
   align-content: center;
   text-align: center;
@@ -1845,7 +1845,7 @@ video {
 .carousel-caption a {
 	text-transform: uppercase;
 	text-decoration: none;
-	background: maroon;
+	background: #8B0000;
 	padding: 5px 20px;
 	display: inline-block;
 	color: #fff;
@@ -1882,14 +1882,14 @@ video {
   border-color: yellow;
   outline: none;
   padding: 7px 8px;
-  background-color: maroon;
+  background-color: #8B0000;
   cursor: pointer;
   font-size: 10px;
         }
 
     span{
         font-weight: 100;
-        color: maroon;
+        color: #8B0000;
         font-size: 1.0rem;
         }
 	.navbar-nav {
@@ -1918,7 +1918,7 @@ video {
         
     }
     .news{
-        background-color:maroon;
+        background-color:#8B0000;
         color: yellow;
         opacity: 1;
         position: absolute;
@@ -1949,7 +1949,7 @@ video {
 }
 @media (min-width:576px) and  (max-width:768px){
     h2{
-        color: maroon;
+        color: #8B0000;
     }
     .carousel-caption h5 {
 		font-size: 20px;
