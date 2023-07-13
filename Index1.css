@@ -1984,6 +1984,9 @@ video {
     .news h5{
         font-size: 14px;
     }
+    .growt{
+        display: none;
+    }
     video {
     margin-bottom: 200px;
     overflow-x: hidden;
