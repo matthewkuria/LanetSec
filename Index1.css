@@ -1920,8 +1920,8 @@ video {
 @media only screen and (max-width: 576px) {
     body{
         top: 0;
-         background: url("images/newgate2.jpg") repeat  fixed; 
-    background-size: cover;
+         background: url("images/newgate3.jpg") repeat  fixed; 
+         background-size: cover;
     }
    
     .btn {
@@ -1996,6 +1996,11 @@ video {
 
 }
 @media (min-width:576px) and  (max-width:768px){
+     body{
+        top: 0;
+         background: url("images/newgate2.jpg") no-repeat  fixed; 
+         background-size: cover;
+    }
     h2{
         color: #8B0000;
     }
@@ -2013,7 +2018,11 @@ video {
     }
 }
 @media (min-width:768px){
-    
+     body{
+        top: 0;
+         background: url("images/newgate.jpg") no-repeat  fixed; 
+         background-size: cover;
+    }
 }
 @media (min-width:992px){
     
