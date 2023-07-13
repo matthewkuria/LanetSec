@@ -1919,8 +1919,8 @@ video {
 
 @media only screen and (max-width: 576px) {
     body{
-        top: auto;
-         background: url("images/newgate2.jpg") no-repeat  center scroll; 
+        top: 0;
+         background: url("images/newgate2.jpg") no-repeat  fixed; 
     background-size: contain;
     }
    
