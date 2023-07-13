@@ -50,7 +50,7 @@ html {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     display: inline;
-    background: url("images/newgate.jpg") no-repeat center center fixed; 
+    background: url("images/newgate.jpg") no-repeat  center fixed; 
     background-size: contain;  
     overflow-x: hidden;
     top: 0;
@@ -1918,6 +1918,11 @@ video {
 }
 
 @media only screen and (max-width: 576px) {
+    body{
+        top: auto;
+         background: url("images/newgate2.jpg") no-repeat  center scroll; 
+    background-size: contain;
+    }
    
     .btn {
         border-radius: 15px;
