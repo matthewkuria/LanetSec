@@ -1920,7 +1920,7 @@ video {
 @media only screen and (max-width: 576px) {
     body{
         top: 0;
-         background: url("images/newgate3.jpg") repeat  fixed; 
+         background: url("images/newgate4.jpg") repeat  fixed; 
          background-size: cover;
     }
    
