@@ -178,8 +178,8 @@ html {
 .navbar-brand {
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
-  margin-right: 1rem;
-  font-size: 1.25rem;
+  margin-right: 2rem;
+  font-size: 1.5rem;
   text-decoration: none;
   white-space: nowrap;
 }
@@ -422,15 +422,19 @@ html {
 
 .navbar-light .navbar-brand {
   color: rgba(0, 0, 0, 0.9);
+    background-color: transparent;
 }
 .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
   color: #8B0000;
 }
 .navbar-light .navbar-nav .nav-link {
   color: rgba(0, 0, 0, 0.55);
+
 }
 .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
-  color: rgba(0, 0, 0, 0.7);
+    background-color: white;
+  color: #8B0000;
+font-size: 18px;
 }
 .navbar-light .navbar-nav .nav-link.disabled {
   color: rgba(0, 0, 0, 0.3);
